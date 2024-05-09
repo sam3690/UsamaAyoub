@@ -43,13 +43,13 @@ if (typeof window !== 'undefined') {
       <div className='w-[600px} sm:w-[25%]  h-[100%] ml-6 '>
           <img
           className={`max-w-[600px] max-h-[600px] ${chkLarge ? 'w-[500px] h-[500px]' : 'w-[100%] h-[100%]'}`}
-          src='/assets/me.svg'
+          src='./assets/me.svg'
           />
           </div> <br className="block md:hidden sm:hidden"/> {""}
       <div className="flex-1 flex items-start flex-col xl:px-0 sm:px-16 px-6 lg:ml-10">
         <div className='flex flex-row justify-between items-center lg:ml-[200px] w-full'>
           <h1 className='flex-1 font-Poppins font-semibold text-3xl text-white sm:text-3xl md:text-3xl lg:text-5xl'>Hello {""}
-          <Image src='/assets/wavingHand.svg' className={`wave ${isdesktop ? 'w-[40px] h-[40px]':'w-[60px] h-[60px]'} `} width={10} height={10}/> I'm<br className="sm:block"/> {""}
+          <Image src='./assets/wavingHand.svg' className={`wave ${isdesktop ? 'w-[40px] h-[40px]':'w-[60px] h-[60px]'} `} width={10} height={10}/> I'm<br className="sm:block"/> {""}
           <span className='bg-gradient-to-r from-indigo-600 to-teal-400 bg-clip-text text-transparent'>
           <TypeAnimation
             sequence={[

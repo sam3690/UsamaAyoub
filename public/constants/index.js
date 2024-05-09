@@ -30,47 +30,47 @@ export const skills = [
 {
  id: 'skill-1',
  name: 'HTML 5',
- icon: '/assets/html5.svg',
+ icon: './assets/html5.svg',
 },
 {
   id: 'skill-2',
   name: 'CSS 3',
-  icon: '/assets/css3.svg'
+  icon: './assets/css3.svg'
  },  
  {
   id: 'skill-3',
   name: 'JavaScript',
-  icon: '/assets/js.svg'
+  icon: './assets/js.svg'
  },  
  {
   id: 'skill-4',
   name: 'React JS',
-  icon: '/assets/React.svg'
+  icon: './assets/React.svg'
  },  
  {
   id: 'skill-5',
   name: 'Node.js',
-  icon: '/assets/nodejs.svg'
+  icon: './assets/nodejs.svg'
  },  
  {
   id: 'skill-6',
   name: 'Next.js',
-  icon: '/assets/next-js.svg'
+  icon: './assets/next-js.svg'
  },     
  {
   id: 'skill-7',
   name: 'Python',
-  icon: '/assets/python.svg'
+  icon: './assets/python.svg'
  },  
  {
   id: 'skill-8',
   name: 'Django',
-  icon: '/assets/django.svg'
+  icon: './assets/django.svg'
  },
  {
   id: 'skill-9',
   name: 'Github',
-  icon: '/assets/github.svg'  
+  icon: './assets/github.svg'  
  }        
 ];
 
@@ -78,11 +78,11 @@ export const projects = [
   {
     id: 'project-1',
     title: 'Promptopia',
-    img: '/assets/project 1.png'
+    img: './assets/project 1.png'
   },
   {
     id: 'project-2',
     title: 'Bank Landing Page',
-    img: '/assets/project 2.png'
+    img: './assets/project 2.png'
   }
 ];
