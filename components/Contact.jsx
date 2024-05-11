@@ -7,6 +7,29 @@ import Image from 'next/image'
 import { useState, useEffect } from 'react'
 
 const Contact = () => {
+  const [isLarge, setIsLarge] = useState(false)
+const [isMedium, setIsMedium] = useState(false)
+const [isSmall, setIsSmall] = useState(false)
+
+const chkDesktop = () => {
+  let windowWidth;
+  if (typeof window !== 'undefined') {
+    windowWidth = window.innerWidth;
+  }
+  if(windowWidth >= 1024) {
+    setIsLarge(true)
+  }
+  else if(windowWidth <= 1024) {
+    setIsMedium(true)
+  }
+  else{
+    setIsSmall(true)
+  }
+}
+useEffect(() => { 
+  chkDesktop();
+}, [chkDesktop])
+
   return (
     <section id='contact' className='w-full flex flex-col items-center justify-center sm:px-16 px-6'>
       <h1 className='font-Poppins font-semibold xs:text-[48px] text-[40px] text-white xs:leading-[76px] leading-[66px] w-full pb-8'>Contact Me</h1> <br className='sm:block hidden'/>
@@ -20,8 +43,8 @@ const Contact = () => {
       </div> */}
 
 {/* Social Media Contacts */}
-        <div className='flex flex-row justify-between flex-center h-[100px] w-full'>
-        <div className='flex flex-row items-center mx-10 bg-gray-700 backdrop-filter backdrop-blur-md bg-opacity-25 h-[150px] rounded-2xl'>
+<div className='flex flex-row justify-between flex-center sm:h-[150px] sm:2-[600px] h-[100px] w-full'>
+        <div className='flex flex-row items-center mx-10 bg-gray-700 backdrop-filter backdrop-blur-md bg-opacity-25 sm:h-[150px] h-[100px] sm:w-[700px] 2-[300px] rounded-2xl'>
       <Link href={'https://github.com/sam3690'} target='_blank'>
         <FontAwesomeIcon icon={faGithub} className='mx-3 sm:mx-8 sm:h-[100px] sm:w-[150px] h-[50px] w-[50px] text-gray-500 duration-500 hover:text-white hover:w-[150px] hover:h-[150px]' />
       </Link>
