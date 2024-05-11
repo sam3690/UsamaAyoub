@@ -56,11 +56,11 @@ if (typeof window !== 'undefined') {
               // Same substring at the start will only be typed out once, initially
               'Usama Ayoub',
               4000, // wait 1s before replacing 
-              'Web Devloper',
+              'Web Dev',
               2000,
-              'Back-end Developer',
+              'Back-end Dev',
               2000,
-              'Front-end Developer',
+              'Front-end Dev',
               2000
             ]}
             wrapper="span"
