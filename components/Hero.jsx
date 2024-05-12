@@ -39,7 +39,7 @@ if (typeof window !== 'undefined') {
 
 
   return (
-    <section id='home' className='w-full flex-center flex-col sm:flex-row sm:py-16 py-6'>
+    <section id='home' className='w-full mb-[100px} flex-center flex-col sm:flex-row sm:py-16 py-6'>
       <div className='w-[600px} sm:w-[25%]  h-[100%] ml-6 '>
           <img
           className={`max-w-[600px] max-h-[600px] ${chkLarge ? 'w-[500px] h-[500px]' : 'w-[100%] h-[100%]'}`}

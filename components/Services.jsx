@@ -4,7 +4,7 @@ import SkillCard from './SkillCard'
 
 const Services = () => {
   return (
-    <section id='services' className='flex-col sm:mb-6 relative flex justify-center items-center sm:px-16 px-6 '>
+    <section id='services' className='flex-col sm:mb-[100px] mb-6 relative flex justify-center items-center sm:px-16 px-6 '>
         <div className='w-full flex justify-between items-center md:flex-row flex-col sm:mb-16 mb-6 relative z-[1]'>
             <h1 className='font-Poppins font-semibold xs:text-[48px] text-[40px] text-white xs:leading-[76px] leading-[66px] w-full'>My Skills <br className='sm:block hidden'/></h1>      
         </div>
