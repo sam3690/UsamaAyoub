@@ -45,7 +45,7 @@ export const skills = [
  {
   id: 'skill-4',
   name: 'React JS',
-  icon: './assets/React.svg'
+  icon: './assets/react.svg'
  },  
  {
   id: 'skill-5',
@@ -71,18 +71,26 @@ export const skills = [
   id: 'skill-9',
   name: 'Github',
   icon: './assets/github.svg'  
- }        
+ },
 ];
 
 export const projects = [
   {
     id: 'project-1',
     title: 'Promptopia',
-    img: './assets/project 1.png'
+    img: './assets/project 1.png',
+    link: '/'
   },
   {
     id: 'project-2',
     title: 'Bank Landing Page',
-    img: './assets/project 2.png'
+    img: './assets/project 2.png',
+    link: '/'
+  },
+  {
+    id: 'project-3',
+    title: 'React + Flask CRUD App',
+    img: './assets/project 3.png',
+    link: 'https://react-flask-app-mytk.onrender.com'
   }
 ];

@@ -48,7 +48,7 @@ useEffect(() => {
       <Link href={'https://github.com/sam3690'} target='_blank'>
         <FontAwesomeIcon icon={faGithub} className='mx-3 sm:mx-8 sm:h-[100px] sm:w-[150px] h-[50px] w-[50px] text-gray-500 duration-500 hover:text-white hover:w-[90px] hover:h-[90px] sm:hover:w-[150px] sm:hover:h-[150px]' />
       </Link>
-      <Link href={'https://linkedin.com/in/usama-ayoub-736988108'} target='_blank'>
+      <Link href={'https://www.linkedin.com/in/usama-ayoub-b97775339/'} target='_blank'>
       <FontAwesomeIcon icon={faLinkedin} className='mx-3 sm:mx-8 sm:h-[100px] sm:w-[150px] h-[50px] w-[50px] text-gray-500 duration-500 hover:text-blue-800 hover:w-[90px] hover:h-[90px] sm:hover:w-[150px] sm:hover:h-[150px]' />
       </Link>
       <Link href={'https://stackoverflow.com/users/10109674/sam'} target='_blank'>
