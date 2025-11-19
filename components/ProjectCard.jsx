@@ -4,7 +4,7 @@ import React from 'react'
 const ProjectCard = ({id, title, img, link, github}) => {
   return (
     <div key={id} className='justify-center sm:ml-8 sm:mx-0 w-auto min-w-[300px] h-[400px] '>
-        <img src={img} alt={id} className='w-[100%] h-[300px] max-w-[600px] rounded-md object-contain object-top duration-1000 ease-in-out hover:object-bottom' />
+        <img src={img} alt={id} className='w-[100%] h-[300px] max-w-[600px] rounded-md object-cover object-top duration-1000 ease-in-out hover:object-bottom' />
         <div className='flex flex-col gap-3 mt-3'>
           <h3 className='font-Poppins font-semibold text-lg leading-[32.4px] text-white'>{title}</h3>
           <div className='flex items-center gap-3'>
