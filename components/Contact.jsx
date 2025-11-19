@@ -32,7 +32,7 @@ useEffect(() => {
 
   return (
     <section id='contact' className='mb-[100px] w-full flex flex-col items-center justify-center sm:px-16 px-6'>
-      <h1 className='font-Poppins font-semibold xs:text-[48px] text-[40px] text-white xs:leading-[76px] leading-[66px] w-full pb-8'>Contact Me</h1> <br className='sm:block hidden'/>
+      <h1 className='font-Poppins font-semibold xs:text-[48px] text-[40px] text-white xs:leading-[76px] leading-[66px] w-full pb-8'>Social</h1> <br className='sm:block hidden'/>
 {/* General Contacts */}
       {/* <div className='w-full flex flex-wrap items-center'>
         <div className='flex flex-row h-[300px] w-[300px] rounded-md'>
