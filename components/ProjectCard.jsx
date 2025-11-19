@@ -9,7 +9,7 @@ const ProjectCard = ({id, title, img, link, github}) => {
           <Link className='font-Poppins font-semibold text-lg leading-[32.4px] text-white' href={link} target='_blank' rel='noopener noreferrer'>{title}</Link>
           {github && (
             <Link href={github} target='_blank' rel='noopener noreferrer' className='flex items-center gap-2'>
-              <img src='/assets/github.svg' alt='github' className='w-6 h-6' />
+              <img src='./assets/github.svg' alt='github' className='w-6 h-6' />
               <span className='text-sm text-white/80'>Repo</span>
             </Link>
           )}
