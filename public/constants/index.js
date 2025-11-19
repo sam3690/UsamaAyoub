@@ -69,56 +69,61 @@ export const skills = [
  },
  {
   id: 'skill-9',
+  name: 'Flask',
+  icon: './assets/Flask.svg'
+ },
+ {
+  id: 'skill-10',
   name: 'Github',
   icon: './assets/github.svg'  
  },
  {
-  id: 'skill-10',
+  id: 'skill-11',
   name: 'TypeScript',
   icon: './assets/TypeScript.svg'
  },
  {
-  id: 'skill-11',
+  id: 'skill-12',
   name: 'Tailwind CSS',
   icon: './assets/tailwind-css.svg'
  },
  {
-  id: 'skill-12',
+  id: 'skill-13',
   name: 'Docker',
   icon: './assets/Docker.svg'
  },
  {
-  id: 'skill-13',
+  id: 'skill-14',
   name: 'Postgres',
   icon: './assets/PostgresSQL.svg'
  },
  {
-  id: 'skill-14',
+  id: 'skill-15',
   name: 'Redis',
   icon: './assets/Redis.svg'
  },
  {
-  id: 'skill-15',
+  id: 'skill-16',
   name: 'FastAPI',
   icon: './assets/FastAPI.svg'
  },
  {
-  id: 'skill-16',
+  id: 'skill-17',
   name: 'Jenkins',
   icon: './assets/Jenkins.svg'
  },
  {
-  id: 'skill-17',
+  id: 'skill-18',
   name: 'Bun',
   icon: './assets/Bun.svg'
  },
  {
-  id: 'skill-18',
+  id: 'skill-19',
   name: 'Laravel',
   icon: './assets/Laravel.svg'
  },
  {
-  id: 'skill-19',
+  id: 'skill-20',
   name: 'Ubuntu',
   icon: './assets/Ubuntu.svg'
  },
