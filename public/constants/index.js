@@ -134,7 +134,7 @@ export const projects = [
     id: 'project-1',
     title: 'Promptopia',
     img: './assets/project 1.png',
-    link: '/',
+    link: '',
     github: 'https://github.com/sam3690/Prompt-opia.git'
   },
   {
@@ -171,5 +171,12 @@ export const projects = [
     img: './assets/project 5.png',
     link: 'https://pwd-strength-cal.streamlit.app/',
     github: 'https://github.com/sam3690/st-passwrod-strength-calc.git'
+  },
+  {
+    id: 'project-7',
+    title: 'Syncly - One stop project management',
+    img: './assets/project 7.png',
+    link: '',
+    github: 'https://github.com/sam3690/syncly'
   }
 ];
